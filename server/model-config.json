@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACTION": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UTILISATEURS": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UTILISATEURSGRP": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECE_NATURE": {
+    "dataSource": "db",
+    "public": true
+  },
+  "DEPOTS": {
+    "dataSource": "db",
+    "public": true
+  },
+  "TIERS": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AFFAIRES": {
+    "dataSource": "db",
+    "public": true
+  }
+}
