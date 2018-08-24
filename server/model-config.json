@@ -62,5 +62,9 @@
   "AFFAIRES": {
     "dataSource": "db",
     "public": true
+  },
+  "ARTICLES": {
+    "dataSource": "db",
+    "public": true
   }
 }
