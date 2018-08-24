@@ -66,5 +66,9 @@
   "ARTICLES": {
     "dataSource": "db",
     "public": true
+  },
+  "ARTDEPOT": {
+    "dataSource": "db",
+    "public": true
   }
 }
