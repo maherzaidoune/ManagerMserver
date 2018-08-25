@@ -70,5 +70,25 @@
   "ARTDEPOT": {
     "dataSource": "db",
     "public": true
+  },
+  "NUMAUTO": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECE_PREF": {
+    "dataSource": "db",
+    "public": true
+  },
+  "TVA": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ARTFAMILLES_CPT": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ARTTARIFLIGNE": {
+    "dataSource": "db",
+    "public": true
   }
 }

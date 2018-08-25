@@ -1,7 +1,8 @@
 {
   "name": "UTILISATEURS",
   "options": {
-    "idInjection": false,
+    "idInjection": true,
+    "forceId":true,
     "mssql": {
       "schema": "dbo",
       "table": "UTILISATEURS"
@@ -11,10 +12,9 @@
     "USRID": {
       "type": "Number",
       "required": true,
+      "generated":false,
       "length": null,
-      "precision": 10,
-      "scale": 0,
-      "id": 1,
+      "id": true,
       "mssql": {
         "columnName": "USRID",
         "dataType": "int",
@@ -41,7 +41,7 @@
     },
     "PROID": {
       "type": "Number",
-      "required": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
@@ -131,7 +131,7 @@
     },
     "USRRESERVE": {
       "type": "String",
-      "required": true,
+      "required": false,
       "length": 1,
       "precision": null,
       "scale": null,
@@ -206,7 +206,7 @@
     },
     "USRISACTIF": {
       "type": "String",
-      "required": true,
+      "required": false,
       "length": 1,
       "precision": null,
       "scale": null,
@@ -221,7 +221,7 @@
     },
     "USRISRESPONSABLE": {
       "type": "String",
-      "required": true,
+      "required": false,
       "length": 1,
       "precision": null,
       "scale": null,
@@ -236,7 +236,7 @@
     },
     "USRISNOMADE": {
       "type": "String",
-      "required": true,
+      "required": false,
       "length": 1,
       "precision": null,
       "scale": null,
@@ -281,7 +281,7 @@
     },
     "USRPWD": {
       "type": "String",
-      "required": false,
+      "required": true,
       "length": 30,
       "precision": null,
       "scale": null,
@@ -296,7 +296,7 @@
     },
     "USERGRP": {
       "type": "Number",
-      "required": false,
+      "required": true,
       "length": null,
       "precision": 19,
       "scale": 0,

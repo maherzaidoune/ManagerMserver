@@ -1,0 +1,1 @@
+'use strict';module.exports=function(ARTFAMILLES_CPT) {};
