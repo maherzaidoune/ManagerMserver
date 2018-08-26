@@ -1,0 +1,838 @@
+{
+  "name": "PRODUITS",
+  "options": {
+    "idInjection": false,
+    "mssql": {
+      "schema": "dbo",
+      "table": "PRODUITS"
+    }
+  },
+  "properties": {
+    "PROID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mssql": {
+        "columnName": "PROID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PROCODE": {
+      "type": "String",
+      "required": true,
+      "length": 25,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROCODE",
+        "dataType": "varchar",
+        "dataLength": 25,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROTYPE": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROTYPE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROISACTIF": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISACTIF",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "TIRID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TIRID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "ARUIDACHAT": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARUIDACHAT",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "DEVID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "DEVID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "ARTID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARTID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "FRAID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "FRAID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PRODESIGNATION": {
+      "type": "String",
+      "required": true,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PRODESIGNATION",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PRODESIGNATION2": {
+      "type": "String",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PRODESIGNATION2",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROCODEBARRE": {
+      "type": "String",
+      "required": false,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROCODEBARRE",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROCEECODE": {
+      "type": "String",
+      "required": false,
+      "length": 3,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROCEECODE",
+        "dataType": "varchar",
+        "dataLength": 3,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROCEEPRODUIT": {
+      "type": "String",
+      "required": false,
+      "length": 9,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROCEEPRODUIT",
+        "dataType": "varchar",
+        "dataLength": 9,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PRONATURE": {
+      "type": "String",
+      "required": false,
+      "length": 50,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PRONATURE",
+        "dataType": "varchar",
+        "dataLength": 50,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROCOLLECTION": {
+      "type": "String",
+      "required": false,
+      "length": 50,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROCOLLECTION",
+        "dataType": "varchar",
+        "dataLength": 50,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROISPRINCIPAL": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISPRINCIPAL",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROISSTATISTIQUE": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISSTATISTIQUE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROISGARANTIE": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISGARANTIE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROGARANTIE": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 5,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PROGARANTIE",
+        "dataType": "smallint",
+        "dataLength": null,
+        "dataPrecision": 5,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PRODELAI": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 5,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PRODELAI",
+        "dataType": "smallint",
+        "dataLength": null,
+        "dataPrecision": 5,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PROQTEDEFAUT": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PROQTEDEFAUT",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PRODREMISE_F": {
+      "type": "String",
+      "required": false,
+      "length": 30,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PRODREMISE_F",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROPOIDS": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PROPOIDS",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PROUNITEPOIDS": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PROUNITEPOIDS",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "MEMOID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "MEMOID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "DATECREATE": {
+      "type": "Date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "DATECREATE",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "DATEUPDATE": {
+      "type": "Date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "DATEUPDATE",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "USRMODIF": {
+      "type": "String",
+      "required": false,
+      "length": 30,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "USRMODIF",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROISFORFAIT": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISFORFAIT",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROQTEUAISMULTI": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROQTEUAISMULTI",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROISDIMENSION": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISDIMENSION",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "DIOID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "DIOID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PROISREPORTDIM": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISREPORTDIM",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PROVOLUME": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PROVOLUME",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PROUNITEVOLUME": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 16,
+      "scale": 9,
+      "mssql": {
+        "columnName": "PROUNITEVOLUME",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 16,
+        "dataScale": 9,
+        "nullable": "YES"
+      }
+    },
+    "PRODENSITE": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 5,
+      "scale": 4,
+      "mssql": {
+        "columnName": "PRODENSITE",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 5,
+        "dataScale": 4,
+        "nullable": "YES"
+      }
+    },
+    "PROISECLATER": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISECLATER",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROTYPEECLATER": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROTYPEECLATER",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROISDEFAUTFAM": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISDEFAUTFAM",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PROISSOUMISESC": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PROISSOUMISESC",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PFMID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 19,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PFMID",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 19,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PROLARGEUR": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PROLARGEUR",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PROLONGUEUR": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PROLONGUEUR",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PROHAUTEUR": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PROHAUTEUR",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PROUNITEDIM": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 16,
+      "scale": 9,
+      "mssql": {
+        "columnName": "PROUNITEDIM",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 16,
+        "dataScale": 9,
+        "nullable": "YES"
+      }
+    },
+    "PROID_DECLINAISON": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PROID_DECLINAISON",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARGID_1": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARGID_1",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARGID_2": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARGID_2",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARGID_3": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARGID_3",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARGVID_1": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARGVID_1",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARGVID_2": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARGVID_2",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARGVID_3": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARGVID_3",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PROIDSUIVANT": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PROIDSUIVANT",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "MODID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 19,
+      "scale": 0,
+      "mssql": {
+        "columnName": "MODID",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 19,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    }
+  }
+}

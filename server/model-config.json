@@ -90,5 +90,13 @@
   "ARTTARIFLIGNE": {
     "dataSource": "db",
     "public": true
+  },
+  "PRODUITS": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PROTARIF": {
+    "dataSource": "db",
+    "public": true
   }
 }
