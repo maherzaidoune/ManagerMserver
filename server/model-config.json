@@ -98,5 +98,21 @@
   "PROTARIF": {
     "dataSource": "db",
     "public": true
+  },
+  "ARTUNITE": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECEDIVERS": {
+    "dataSource": "db",
+    "public": true
+  },
+  "OPERATIONSTOCK": {
+    "dataSource": "db",
+    "public": true
+  },
+  "IDENTIFIANTTABLE": {
+    "dataSource": "db",
+    "public": true
   }
 }
