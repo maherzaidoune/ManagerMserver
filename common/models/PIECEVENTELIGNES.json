@@ -1,0 +1,1408 @@
+{
+  "name": "PIECEVENTELIGNES",
+  "options": {
+    "idInjection": false,
+    "mssql": {
+      "schema": "dbo",
+      "table": "PIECEVENTELIGNES"
+    }
+  },
+  "properties": {
+    "PLVID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mssql": {
+        "columnName": "PLVID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PCVID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PCVID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PLVNUMLIGNE": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PLVNUMLIGNE",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PLVTYPE": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVTYPE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PLVDATE": {
+      "type": "Date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVDATE",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "DEPID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "DEPID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "AFFID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "AFFID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TIRIDREP": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TIRIDREP",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TIRIDFOU": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TIRIDFOU",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PROID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PROID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARTID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ARTID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ARTTYPE": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "ARTTYPE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVISFORFAIT": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVISFORFAIT",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PLVISSOUMISESC": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVISSOUMISESC",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PLVDESIGNATION": {
+      "type": "String",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVDESIGNATION",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "TVACODE": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TVACODE",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "CPTID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "CPTID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "ANSID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "ANSID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVQTE": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVQTE",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVQTEUS": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVQTEUS",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVQTETRANSFO": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVQTETRANSFO",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVCOEFFUV": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 5,
+      "mssql": {
+        "columnName": "PLVCOEFFUV",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 5,
+        "nullable": "NO"
+      }
+    },
+    "PLVIDORG": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PLVIDORG",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVPUBRUT": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVPUBRUT",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVPUNET": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVPUNET",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVMNTNET": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVMNTNET",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVMNTNETHT": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVMNTNETHT",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVLASTPA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVLASTPA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVPMP": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVPMP",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVCUMP": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVCUMP",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVREMISE_F": {
+      "type": "String",
+      "required": false,
+      "length": 30,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVREMISE_F",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVREMISE_T": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVREMISE_T",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVREMISE_MNT": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVREMISE_MNT",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVSTOTID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PLVSTOTID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVFRAIS1": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVFRAIS1",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVFRAIS1T": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFRAIS1T",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFRAIS2": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVFRAIS2",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVFRAIS2T": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFRAIS2T",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFRAIS3": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVFRAIS3",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVFRAIS3T": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFRAIS3T",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFRAISTOTAL": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVFRAISTOTAL",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVPOIDS": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVPOIDS",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVUNITEPOIDS": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PLVUNITEPOIDS",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PLVDIVERS": {
+      "type": "String",
+      "required": false,
+      "length": 50,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVDIVERS",
+        "dataType": "varchar",
+        "dataLength": 50,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVCOMMENTAIRE": {
+      "type": "String",
+      "required": false,
+      "length": 2147483647,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVCOMMENTAIRE",
+        "dataType": "text",
+        "dataLength": 2147483647,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVNUMLOT": {
+      "type": "String",
+      "required": false,
+      "length": 50,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVNUMLOT",
+        "dataType": "varchar",
+        "dataLength": 50,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVNUMSERIE": {
+      "type": "String",
+      "required": false,
+      "length": 50,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVNUMSERIE",
+        "dataType": "varchar",
+        "dataLength": 50,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVPUBRUTREF": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVPUBRUTREF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVARTCODE": {
+      "type": "String",
+      "required": false,
+      "length": 25,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVARTCODE",
+        "dataType": "varchar",
+        "dataLength": 25,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVISIMPRIMABLE": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVISIMPRIMABLE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PVOID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PVOID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVSTYLEISGRAS": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVSTYLEISGRAS",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVSTYLEISITALIC": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVSTYLEISITALIC",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVSTYLEISIMPPARTIEL": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVSTYLEISIMPPARTIEL",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVSTYLEISSOULIGNE": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVSTYLEISSOULIGNE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "TRFID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TRFID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVFEFOFABRICATION": {
+      "type": "Date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFEFOFABRICATION",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFEFOPEREMPTION": {
+      "type": "Date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFEFOPEREMPTION",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFEFODIVERS": {
+      "type": "String",
+      "required": false,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFEFODIVERS",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE1": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE1",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE2": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE2",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE3": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE3",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE4": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE4",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE5": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE5",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE6": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE6",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE7": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE7",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE8": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE8",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "TPFCODE9": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TPFCODE9",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVD1": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD1",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD2": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD2",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD3": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD3",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD4": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD4",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD5": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD5",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD6": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD6",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD7": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD7",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVD8": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVD8",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVVOLUME": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 20,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVVOLUME",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 6,
+        "nullable": "YES"
+      }
+    },
+    "PLVUNITEVOLUME": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 16,
+      "scale": 9,
+      "mssql": {
+        "columnName": "PLVUNITEVOLUME",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 16,
+        "dataScale": 9,
+        "nullable": "YES"
+      }
+    },
+    "PLVDENSITE": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 5,
+      "scale": 4,
+      "mssql": {
+        "columnName": "PLVDENSITE",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 5,
+        "dataScale": 4,
+        "nullable": "YES"
+      }
+    },
+    "CTMID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "CTMID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PIFID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PIFID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PLVLASTPR": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVLASTPR",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVPRMP": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVPRMP",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVCRUMP": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PLVCRUMP",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "PLVFEFODIVERS1": {
+      "type": "String",
+      "required": false,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFEFODIVERS1",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFEFODIVERS2": {
+      "type": "String",
+      "required": false,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFEFODIVERS2",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVFEFODIVERS3": {
+      "type": "String",
+      "required": false,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVFEFODIVERS3",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVIDNOMC": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 19,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PLVIDNOMC",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 19,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PLVIDNOMCPERE": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 19,
+      "scale": 0,
+      "mssql": {
+        "columnName": "PLVIDNOMCPERE",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 19,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "TCKID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 19,
+      "scale": 0,
+      "mssql": {
+        "columnName": "TCKID",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 19,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PLVISSTK": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVISSTK",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "PLVCLF": {
+      "type": "String",
+      "required": false,
+      "length": 13,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PLVCLF",
+        "dataType": "varchar",
+        "dataLength": 13,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    }
+  }
+}

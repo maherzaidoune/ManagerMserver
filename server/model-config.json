@@ -114,5 +114,13 @@
   "IDENTIFIANTTABLE": {
     "dataSource": "db",
     "public": true
+  },
+  "PIECEVENTES": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECEVENTELIGNES": {
+    "dataSource": "db",
+    "public": true
   }
 }
