@@ -1,0 +1,88 @@
+{
+  "name": "MEMOS",
+  "options": {
+    "idInjection": false,
+    "mssql": {
+      "schema": "dbo",
+      "table": "MEMOS"
+    }
+  },
+  "properties": {
+    "MEMOID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mssql": {
+        "columnName": "MEMOID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "MEMO": {
+      "type": "String",
+      "required": false,
+      "length": 2147483647,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "MEMO",
+        "dataType": "text",
+        "dataLength": 2147483647,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "MEMODOC": {
+      "type": "Binary",
+      "required": false,
+      "length": 2147483647,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "MEMODOC",
+        "dataType": "image",
+        "dataLength": 2147483647,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "MEMOISALERTE": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "MEMOISALERTE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "MEMOALERTE": {
+      "type": "String",
+      "required": false,
+      "length": 2147483647,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "MEMOALERTE",
+        "dataType": "text",
+        "dataLength": 2147483647,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    }
+  }
+}

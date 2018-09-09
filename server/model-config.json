@@ -92,12 +92,12 @@
     "public": true
   },
   "PRODUITS": {
-    "dataSource": "db",
+ 
     "public": true
   },
   "PROTARIF": {
     "dataSource": "db",
-    "public": true
+    "public": true        
   },
   "ARTUNITE": {
     "dataSource": "db",
@@ -121,6 +121,9 @@
   },
   "PIECEVENTELIGNES": {
     "dataSource": "db",
-    "public": true
-  }
+    "public": true  
+  },
+  "MEMOS": {
+    "dataSource": "db",
+    "public": true  }
 }
