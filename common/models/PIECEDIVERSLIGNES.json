@@ -1,7 +1,8 @@
 {
   "name": "PIECEDIVERSLIGNES",
   "options": {
-    "idInjection": false,
+    "idInjection": true,
+    "forceId":true,
     "mssql": {
       "schema": "dbo",
       "table": "PIECEDIVERSLIGNES"
@@ -11,10 +12,9 @@
     "PLDID": {
       "type": "Number",
       "required": true,
+      "generated":false,
       "length": null,
-      "precision": 10,
-      "scale": 0,
-      "id": 1,
+      "id": true,
       "mssql": {
         "columnName": "PLDID",
         "dataType": "int",

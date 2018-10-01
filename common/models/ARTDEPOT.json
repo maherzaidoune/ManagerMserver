@@ -1,7 +1,8 @@
 {
   "name": "ARTDEPOT",
   "options": {
-    "idInjection": false,
+    "forceId":true,
+     "idInjection": false,
     "mssql": {
       "schema": "dbo",
       "table": "ARTDEPOT"
@@ -11,10 +12,9 @@
     "ARTID": {
       "type": "Number",
       "required": true,
+      "generated":false,
       "length": null,
-      "precision": 10,
-      "scale": 0,
-      "id": 1,
+      "id": true,
       "mssql": {
         "columnName": "ARTID",
         "dataType": "int",
@@ -30,7 +30,8 @@
       "length": null,
       "precision": 10,
       "scale": 0,
-      "id": 2,
+      "generated":false,
+      "id": true,
       "mssql": {
         "columnName": "DEPID",
         "dataType": "int",

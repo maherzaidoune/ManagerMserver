@@ -1,7 +1,8 @@
 {
   "name": "IDENTIFIANTTABLE",
   "options": {
-    "idInjection": false,
+    "idInjection": true,
+    "forceId":true,
     "mssql": {
       "schema": "dbo",
       "table": "IDENTIFIANTTABLE"
@@ -11,10 +12,9 @@
     "CTNTABLE": {
       "type": "String",
       "required": true,
-      "length": 40,
-      "precision": null,
-      "scale": null,
-      "id": 1,
+      "generated":false,
+      "length": null,
+      "id": true,
       "mssql": {
         "columnName": "CTNTABLE",
         "dataType": "varchar",

@@ -92,6 +92,7 @@
     "public": true
   },
   "PRODUITS": {
+    "dataSource": "db",
     "public": true
   },
   "PROTARIF": {
@@ -127,6 +128,10 @@
     "public": true
   },
   "PIECEDIVERSLIGNES": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EXERCICES": {
     "dataSource": "db",
     "public": true
   }
