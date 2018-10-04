@@ -134,5 +134,13 @@
   "EXERCICES": {
     "dataSource": "db",
     "public": true
+  },
+  "PIECEVENTETAXES": {
+    "dataSource": "db",
+    "public": false
+  },
+  "REGLEMENTECHEANCE": {
+    "dataSource": "db",
+    "public": false
   }
 }

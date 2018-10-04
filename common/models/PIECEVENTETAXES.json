@@ -1,0 +1,164 @@
+{
+  "name": "PIECEVENTETAXES",
+  "options": {
+    "idInjection": false,
+    "mssql": {
+      "schema": "dbo",
+      "table": "PIECEVENTETAXES"
+    }
+  },
+  "properties": {
+    "PCVID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mssql": {
+        "columnName": "PCVID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "CODETAXE": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 2,
+      "mssql": {
+        "columnName": "CODETAXE",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PTVBASETVA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTVBASETVA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTVBASETVAESC": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTVBASETVAESC",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTVMNTTVA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTVMNTTVA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTVTAUXTVA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 5,
+      "scale": 4,
+      "mssql": {
+        "columnName": "PTVTAUXTVA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 5,
+        "dataScale": 4,
+        "nullable": "NO"
+      }
+    },
+    "PTVBASETPF": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTVBASETPF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTVBASETPFESC": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTVBASETPFESC",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTVMNTTPF": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTVMNTTPF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTVTAUXTPF": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 16,
+      "scale": 9,
+      "mssql": {
+        "columnName": "PTVTAUXTPF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 16,
+        "dataScale": 9,
+        "nullable": "NO"
+      }
+    }
+  }
+}
