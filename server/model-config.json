@@ -141,6 +141,10 @@
   },
   "REGLEMENTECHEANCE": {
     "dataSource": "db",
-    "public": false
+    "public": true
+  },
+  "PIECEVENTEECHEANCE": {
+    "dataSource": "db",
+    "public": true
   }
 }
