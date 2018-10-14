@@ -1,9 +1,6 @@
 {
   "db": {
-    "connector": "mssql",
-    "host": "localhost",
-    "database": "FALKON",
-    "username": "maher",
-    "password": "123456789"
+    "name": "db",
+    "connector": "memory"
   }
 }
