@@ -137,7 +137,7 @@
   },
   "PIECEVENTETAXES": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "REGLEMENTECHEANCE": {
     "dataSource": "db",
