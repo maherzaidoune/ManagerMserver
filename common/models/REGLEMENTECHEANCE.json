@@ -16,7 +16,7 @@
       "id": true,
       "length": null,
       "precision": 10,
-      "scale": 0,s
+      "scale": 0,
       "mssql": {
         "columnName": "ECHID",
         "dataType": "int",
