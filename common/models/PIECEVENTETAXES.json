@@ -1,7 +1,8 @@
 {
   "name": "PIECEVENTETAXES",
   "options": {
-    "idInjection": false,
+    "idInjection": true,
+    "forceId":true,
     "mssql": {
       "schema": "dbo",
       "table": "PIECEVENTETAXES"
@@ -11,10 +12,11 @@
     "PCVID": {
       "type": "Number",
       "required": true,
+      "generated":false,
+      "id": true,
       "length": null,
       "precision": 10,
       "scale": 0,
-      "id": 1,
       "mssql": {
         "columnName": "PCVID",
         "dataType": "int",
