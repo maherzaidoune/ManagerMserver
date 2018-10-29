@@ -1,0 +1,164 @@
+{
+  "name": "PIECEACHATTAXES",
+  "options": {
+    "idInjection": true,
+    "forceId":true,
+    "mssql": {
+      "schema": "dbo",
+      "table": "PIECEACHATTAXES"
+    }
+  },
+  "properties": {
+    "PCAID": {
+      "type": "Number",
+      "required": true,
+      "generated":false,
+      "length": null,
+      "id": true,
+      "mssql": {
+        "columnName": "PCAID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "CODETAXE": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 2,
+      "mssql": {
+        "columnName": "CODETAXE",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PTABASETVA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTABASETVA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTABASETVAESC": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTABASETVAESC",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTAMNTTVA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTAMNTTVA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTATAUXTVA": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 5,
+      "scale": 4,
+      "mssql": {
+        "columnName": "PTATAUXTVA",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 5,
+        "dataScale": 4,
+        "nullable": "NO"
+      }
+    },
+    "PTABASETPF": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTABASETPF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTABASETPFESC": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 21,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTABASETPFESC",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 21,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTAMNTTPF": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PTAMNTTPF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PTATAUXTPF": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 16,
+      "scale": 9,
+      "mssql": {
+        "columnName": "PTATAUXTPF",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 16,
+        "dataScale": 9,
+        "nullable": "NO"
+      }
+    }
+  }
+}

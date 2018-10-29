@@ -1,0 +1,149 @@
+{
+  "name": "PIECEACHATECHEANCE",
+  "options": {
+    "idInjection": true,
+    "forceId":true,
+    "mssql": {
+      "schema": "dbo",
+      "table": "PIECEACHATECHEANCE"
+    }
+  },
+  "properties": {
+    "PCAID": {
+      "type": "Number",
+      "required": true,
+      "generated":false,
+      "length": null,
+      "id": true,
+      "mssql": {
+        "columnName": "PCAID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PEAID": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 2,
+      "mssql": {
+        "columnName": "PEAID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "PEADATE": {
+      "type": "Date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PEADATE",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PEAMONTANT": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 18,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PEAMONTANT",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 3,
+        "nullable": "NO"
+      }
+    },
+    "PEATAUX": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mssql": {
+        "columnName": "PEATAUX",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "NO"
+      }
+    },
+    "RGTID": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mssql": {
+        "columnName": "RGTID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "PEAISREGLE": {
+      "type": "String",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PEAISREGLE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "PEAMNTREGLE": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 18,
+      "scale": 3,
+      "mssql": {
+        "columnName": "PEAMNTREGLE",
+        "dataType": "numeric",
+        "dataLength": null,
+        "dataPrecision": 18,
+        "dataScale": 3,
+        "nullable": "YES"
+      }
+    },
+    "PITCODE": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mssql": {
+        "columnName": "PITCODE",
+        "dataType": "char",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    }
+  }
+}

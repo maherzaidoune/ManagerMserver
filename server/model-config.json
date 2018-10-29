@@ -146,5 +146,21 @@
   "PIECEVENTEECHEANCE": {
     "dataSource": "db",
     "public": true
+  },
+  "PIECEACHATS": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECEACHATLIGNES": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECEACHATECHEANCE": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PIECEACHATTAXES": {
+    "dataSource": "db",
+    "public": true
   }
 }
