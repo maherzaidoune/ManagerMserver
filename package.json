@@ -14,18 +14,18 @@
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "helmet": "^3.10.0",
-    "loopback": "^2.22.0",
+    "loopback": "^3.24.0",
     "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^5.4.0",
+    "loopback-component-explorer": "^6.3.1",
     "loopback-connector-mssql": "^3.3.0",
-    "loopback-datasource-juggler": "^2.39.0",
+    "loopback-datasource-juggler": "^4.4.0",
     "loopback-discovery": "^1.0.6",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-loopback": "^8.0.0"
+    "eslint": "^5.9.0",
+    "eslint-config-loopback": "^12.1.0"
   },
   "repository": {
     "type": "",
