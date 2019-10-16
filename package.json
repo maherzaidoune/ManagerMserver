@@ -8,20 +8,23 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
-    "helmet": "^3.10.0",
-    "loopback": "^2.22.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^5.4.0",
+    "helmet": "^3.21.1",
+    "loopback": "^3.20.0",
+    "loopback-boot": "^2.28.0",
+    "loopback-component-explorer": "^6.2.0",
     "loopback-connector-mssql": "^3.3.0",
-    "loopback-datasource-juggler": "^2.39.0",
+    "loopback-datasource-juggler": "^3.22.0",
     "loopback-discovery": "^1.0.6",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0"
+    "strong-error-handler": "^3.0.0",
+    "snyk": "^1.235.1"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
@@ -32,5 +35,6 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "ManagerMserver"
+  "description": "ManagerMserver",
+  "snyk": true
 }
